@@ -5,7 +5,7 @@ import os
 from tweet_transformer import TweetTransformer
 
 
-utilities_path = os.path.join(os.getcwd(), "ml_tools", "utilities")
+utilities_path = os.path.join(os.getcwd(), "api", "ml_tools", "utilities")
 
 
 def predict(text):

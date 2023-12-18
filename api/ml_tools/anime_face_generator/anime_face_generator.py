@@ -6,7 +6,7 @@ from io import BytesIO
 import matplotlib.pyplot as plt
 
 
-models_path = os.path.join(os.getcwd(), "ml_tools", "utilities", "anime_faces_generator", "models")
+models_path = os.path.join(os.getcwd(), "api", "ml_tools", "utilities", "anime_faces_generator", "models")
 
 latent_size = 150
 image_size = 7500
