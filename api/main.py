@@ -2,7 +2,10 @@
 import os
 import sys
 
-utilities_path = os.path.join(os.getcwd(), "ml_tools", "utilities")
+# utilities_path = os.path.join(os.getcwd(), "ml_tools", "utilities")
+# sys.path.insert(0, utilities_path)
+utilities_path = os.path.join(os.getcwd(), "api", "ml_tools", "utilities")
+sys.path.insert(0, os.path.join(os.getcwd(), "api"))
 sys.path.insert(0, utilities_path)
 
 
