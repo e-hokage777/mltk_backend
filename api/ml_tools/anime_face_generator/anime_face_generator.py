@@ -3,7 +3,6 @@ import torch
 import torch.nn as nn
 from torchvision.transforms import ToPILImage
 from io import BytesIO
-import matplotlib.pyplot as plt
 
 
 models_path = os.path.join(os.getcwd(), "api", "ml_tools", "utilities", "anime_faces_generator", "models")
